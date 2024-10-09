@@ -1,7 +1,10 @@
-def converter_massa(grama, quilograma):
-    grama = quilograma *1000
-    quilograma = grama / 1000
-    return quilograma, grama
+def converter_massa_g_kg(grama):
+    grama = grama * 1000
+    return grama
+
+def converter_massa_kg_g( quilograma):
+    quilograma = quilograma / 1000
+    return quilograma
 
     
 
